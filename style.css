@@ -1,0 +1,64 @@
+body {
+    background-color: #333;
+    font-family: 'century gothic', sans-serif;
+
+}
+
+#text {
+    font-weight: bold;
+
+}
+
+#container {
+    text-align: center;
+    margin: 0 auto;
+    width: 200px;
+    background-color: #331f1f;
+    padding: 20px;
+    color: #fff;
+}
+
+.bubble {
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-animation: in-and-out-bubbles 1.20s infinite ease-in-out;
+    animation: in-and-out-bubbles 1.20s infinite ease-in-out;
+
+}
+
+.bubble1 {
+    -webkit-transition-delay: -0.35s;
+    animation-delay: -0.35s;
+}
+
+.bubble2 {
+    -webkit-transition-delay: -0.2s;
+    animation-delay: -0.2s;
+}
+
+@keyframes in-and-out-bubbles {
+
+    0%,
+    100% {
+        transform: scale(0);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes in-and-out-bubbles {
+
+    0%,
+    100% {
+        -webkit-transform: scale(0);
+    }
+
+    20% {
+        -webkit-transform: 1;
+    }
+}
