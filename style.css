@@ -36,8 +36,18 @@ body {
 }
 
 .bubble2 {
-    -webkit-transition-delay: -0.2s;
-    animation-delay: -0.2s;
+    -webkit-transition-delay: -0.25s;
+    animation-delay: -0.25s;
+}
+
+.bubble3 {
+  -webkit-transition-delay: -0.19s;
+  animation-delay: -0.19s;
+}
+
+.bubble4 {
+  -webkit-transition-delay: -0.1s;
+  animation-delay: -0.1s;
 }
 
 @keyframes in-and-out-bubbles {
